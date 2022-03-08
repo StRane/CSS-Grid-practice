@@ -1,0 +1,6 @@
+@use "../../variables" as v;
+
+.gallery {
+  background-color: v.$color-grey-dark-1;
+  grid-column: full-start / full-end;
+}

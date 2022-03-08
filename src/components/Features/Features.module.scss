@@ -1,0 +1,6 @@
+@use "../../variables" as v;
+
+.features {
+  background-color: v.$color-grey-light-2;
+  grid-column: center-start / center-end;
+}

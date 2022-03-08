@@ -1,0 +1,6 @@
+@use "../../variables" as v;
+
+.homes {
+  background-color: v.$color-secondary;
+  grid-column: center-start / center-end;
+}

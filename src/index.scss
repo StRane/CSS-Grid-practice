@@ -21,3 +21,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+//Typography
+%heading {
+  font-family: v.$font-display;
+  font-weight: 400;
+}
+
+h1 {
+  @extend %heading;
+}
+
+h2 {
+  @extend %heading;
+}
+
+h3 {
+  @extend %heading;
+}
+
+h4 {
+  @extend %heading;
+  font-size: 1.9rem;
+}

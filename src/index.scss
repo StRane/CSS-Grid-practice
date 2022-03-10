@@ -30,6 +30,9 @@ body {
 
 h1 {
   @extend %heading;
+  font-size: 4.5rem;
+  color: v.$color-grey-light-1;
+  line-height: 1;
 }
 
 h2 {
